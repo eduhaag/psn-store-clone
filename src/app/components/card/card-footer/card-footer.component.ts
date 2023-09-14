@@ -12,4 +12,7 @@ export class CardFooterComponent {
 	@Input()
 	gamePrice: string = ''
 
+	@Input()
+	gamePhrase: string = ''
+
 }
