@@ -2,7 +2,9 @@
 	margin: 0 auto;
 	padding-top: 110px;
 	display: flex;
+	max-width: 100%;
 	align-items: baseline;
 	justify-content: center;
 	gap: 16px;
+	flex-wrap: wrap;
 }

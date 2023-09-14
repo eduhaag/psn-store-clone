@@ -1,16 +1,11 @@
 <div class="home__container">
-	<app-card
-		gameCover="assets/bt-1.jpg"
-		gameLabel="Exclusive"
-		gameType="Full Game | PS4"
-		gamePrice="R$ 199,90"
+	<app-card *ngFor="let game of games"
+		gameCover={{game.image}}
+		gameLabel={{game.label}}
+		gameType={{game.gameType}}
+		gamePrice="R$ {{game.price.toFixed(2)}}"
 	></app-card>
-	<app-card
-		gameCover="assets/bt-4.jpg"
-		gameType="Full Game | PS4"
-		gamePrice="R$ 299,90"
-	></app-card>
-	<app-card gameCover="assets/bt-5.jpg" gameLabel="Cross Buy"
-	gameType="Digital Game | PS4 | PS3 "
-	gamePrice="R$ 399,90"></app-card>
 </div>
+
+
+

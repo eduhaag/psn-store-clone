@@ -1,0 +1,12 @@
+{
+	"games": [
+		{
+			"id": 1,
+			"image": "assets/",
+			"phrase": "Play It Now!",
+			"gameType": "Full Game | PS4",
+			"price": 299.99,
+			"label": "testando"
+		}
+	]
+}

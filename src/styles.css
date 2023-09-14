@@ -14,3 +14,8 @@ body{
 body, input, textarea, button {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+.swiper {
+	width: 70%;
+}
