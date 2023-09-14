@@ -1,0 +1,19 @@
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: fixed;
+	z-index: 999;
+
+	background-color: #fff;
+	width: 100%;
+	padding: 20px 130px;
+
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+	gap: 50px
+}
+
+.logo {
+	width: 150px;
+	height: 32px;
+}

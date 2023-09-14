@@ -7,7 +7,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { CardComponent } from './components/card/card.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { CardLabelComponent } from './components/card/card-label/card-label.component';
-import { CardPricingComponent } from './components/card/card-pricing/card-pricing.component';
+import { CardFooterComponent } from './components/card/card-footer/card-footer.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardPricingComponent } from './components/card/card-pricing/card-pricin
     CardComponent,
     MenuBarComponent,
     CardLabelComponent,
-    CardPricingComponent
+    CardFooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

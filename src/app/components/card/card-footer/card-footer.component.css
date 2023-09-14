@@ -1,0 +1,30 @@
+.card-footer__container {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	padding: 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: rgba(0, 0, 0, .7);
+	color: antiquewhite;
+}
+
+.card-footer__details {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 5px;
+}
+
+.card-footer__details-consoles {
+	padding-left: 10px;
+	border-left: 3px solid aqua;
+}
+
+.class_footer__price {
+	font-size: 24px;
+	font-weight: bold;
+}
