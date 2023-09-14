@@ -10,7 +10,7 @@ export class CardComponent {
 	gameCover: string = ''
 
 	@Input()
-	gameLabel: string = ''
+	gameLabel?: string
 
 	@Input()
 	gameType: string = ''

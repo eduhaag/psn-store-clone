@@ -1,5 +1,5 @@
 <a href="#" class="card__container">
 	<img class="card__image" [src]="gameCover" alt="">
-	<app-card-label *ngIf="gameLabel !== ''" [gameLabel]="gameLabel"></app-card-label>
+	<app-card-label *ngIf="gameLabel" [gameLabel]="gameLabel"></app-card-label>
 	<app-card-footer [gamePrice]="gamePrice" [gameType]="gameType"></app-card-footer>
 </a>
