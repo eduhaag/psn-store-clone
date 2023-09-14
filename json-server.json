@@ -1,0 +1,50 @@
+{
+	"games": [
+		{
+			"id": 1,
+			"image": "assets/ac-cover.jpg",
+			"phrase": "Play It Now!",
+			"gameType": "Full Game | PS4",
+			"price": 299.99,
+			"label": "Exclusive"
+		},
+		{
+			"id": 2,
+			"image": "assets/bt-1.jpg",
+			"phrase": "Play It Now!",
+			"gameType": "Digital Game | PS4",
+			"price": 199.99,
+			"label": "The best of year"
+		},
+		{
+			"id": 3,
+			"image": "assets/bt-4.jpg",
+			"phrase": "Buy Now!",
+			"gameType": "Full Game | PS4 |PS3",
+			"price": 249.90
+		},
+		{
+			"id": 4,
+			"image": "assets/bt-5.jpg",
+			"phrase": "Play It Now!",
+			"gameType": "Digital Game | PS4 | Vita",
+			"price": 109.90,
+			"label": "THE BEST PRICE"
+		},
+		{
+			"id": 5,
+			"image": "assets/bt-bad-company-2.jpg",
+			"phrase": "Play with your friends",
+			"gameType": "Digital Game | PS4 | PS3",
+			"price": 399.90,
+			"label": "Exclusive"
+		},
+		{
+			"id": 6,
+			"image": "assets/bt-hardline.jpg",
+			"phrase": "Buy Now!",
+			"gameType": "Full Game | PS3",
+			"price": 199.90
+		}
+	]
+}
